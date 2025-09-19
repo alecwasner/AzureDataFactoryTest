@@ -1,0 +1,15 @@
+{
+	"name": "RestService1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": "https://data.cityofchicago.org/api/v3/views/v6vf-nfxy/query.json",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "serveradmin_alec",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDhFN0NBNzQ2LTkyOTEtNDI3RS04QTlFLTQzRUYyNDRFNTM2OV81ZGM2MDBjYi1jMzM5LTQwNWItOGE5NS1hMTk5Mjg0ODYxZmUiDQp9"
+		}
+	}
+}

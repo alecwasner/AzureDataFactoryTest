@@ -1,0 +1,9 @@
+{
+	"name": "alecwasnertest1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fec9dcb5-b4ab-4e37-9632-c48f0636fa67",
+		"tenantId": "9fe8e0a5-234e-414e-9e26-a63cbcb4ac41"
+	}
+}
